@@ -21,17 +21,23 @@
     }
 
     .content-side {
-        justify-content: end !important;
+        justify-content: right !important;
         align-items: end !important;
     }
 
     #baricon {
         display: block !important;
     }
+    .containerfull{
+        width: 100vh;
+    }
 }
 
+.aboutdescription{
+    font-size:12px;
+}
 .content-side {
-    justify-content: end !important;
+    justify-content: center !important;
     align-items: center !important;
 }
 
