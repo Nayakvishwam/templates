@@ -1,0 +1,60 @@
+.marginLeft-150 {
+    margin-left: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .marginLeft-150 {
+        margin-left: 0px !important;
+    }
+
+    #icon {
+        margin-top: 10px;
+        width: 90px !important;
+    }
+
+}
+
+@media (max-width:958px) {
+    #mainContent {
+        display: none !important;
+    }
+
+    .content-side {
+        justify-content: end !important;
+        align-items: end !important;
+    }
+
+    #baricon {
+        display: block !important;
+    }
+}
+
+.content-side {
+    justify-content: end !important;
+    align-items: center !important;
+}
+
+.gap-3 {
+    gap: 10px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#header {
+    font-family: "Roboto", sans-serif;
+}
+
+.inquiry-btn {
+    font-size: 9px;
+    font-family: "Barlow", sans-serif;
+    background-color: #FF9C22;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
