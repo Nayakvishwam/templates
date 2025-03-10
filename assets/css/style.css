@@ -1,0 +1,27 @@
+#projects::placeholder {
+    font-size: 10px;
+}
+
+#projects {
+    font-size: 10px;
+    margin-bottom: 0px !important;
+}
+
+#projects:focus {
+    border-color: white;
+    outline: none;
+}
+
+#searchoption::placeholder {
+    font-size: 10px;
+}
+
+#searchoption {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+}
+
+#searchoption:focus {
+    border-color: white;
+    outline: none;
+}
